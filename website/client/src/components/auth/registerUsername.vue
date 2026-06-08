@@ -85,6 +85,7 @@
               align-items-center w-100 sign-up mx-auto mb-5"
             :disabled="!email || emailError || !username || usernameInvalid || !privacyAccepted"
             type="submit"
+            data-test-id="submitButton"
           >
             {{ $t('getStarted') }}
           </button>

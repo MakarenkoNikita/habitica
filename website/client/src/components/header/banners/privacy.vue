@@ -14,7 +14,7 @@
       :class="{ static: isStaticPage }"
     >
       <button
-        class="btn btn-primary mb-2"
+        class="btn btn-primary mb-2" data-test-id="acceptCookies"
         @click="consent(true)"
       >
         {{ $t('acceptAllCookies') }}
