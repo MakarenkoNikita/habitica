@@ -187,6 +187,7 @@
         <button
           v-if="!registering"
           type="submit"
+          data-test-id="submit"
           class="btn btn-info w-100 mb-4"
           :disabled="!usernameValid || !passwordValid"
         >

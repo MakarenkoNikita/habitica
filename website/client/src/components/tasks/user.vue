@@ -1,6 +1,7 @@
 <template>
   <div
     class="row user-tasks-page"
+    data-test-id="homePage"
     @click="openCreateBtn ? openCreateBtn = false : null"
   >
     <broken-task-modal />
