@@ -1,5 +1,5 @@
 <template>
-  <div class="gradient-bg">
+  <div class="gradient-bg" data-test-id="usernamePage">
     <div
       id="privacy-tos"
       class="w-100"
