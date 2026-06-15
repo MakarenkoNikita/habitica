@@ -2,6 +2,7 @@
   <div class="notification-animation-holder">
     <div
       class="notification-holder"
+      data-test-id="notificationHolder"
       @click="handleOnClick()"
     >
       <div
