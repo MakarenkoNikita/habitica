@@ -12,6 +12,7 @@
         'link-exempt': !isChallengeTask && !isGroupTask,
       }, `type_${task.type}`
       ]"
+      :data-test-id="`${task.type} ${task.id}`"
       @click="castEnd($event, task)"
       tabindex="0"
       @keypress.enter="$emit('editTask', task)"
@@ -107,6 +108,7 @@
                 v-markdown="task.text"
                 class="task-title markdown"
                 :class="{ 'has-notes': task.notes }"
+                data-test-id="taskTitle"
               ></h3>
               <menu-dropdown
                 v-if="!isRunningYesterdailies && showOptions"
@@ -188,6 +190,7 @@
               v-markdown="task.notes"
               class="task-notes small-text"
               :class="{'has-checklist': task.notes && hasChecklist}"
+              data-test-id="taskNotes"
             ></div>
           </div>
           <div

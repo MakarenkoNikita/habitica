@@ -500,6 +500,7 @@
           <div
             v-once
             class="next"
+            data-test-id="nextButton"
           >
             {{ $t('next') }}
           </div>
@@ -517,6 +518,7 @@
           <div
             v-once
             class="next"
+            data-test-id="finishButton"
           >
             {{ $t('finish') }}
           </div>
