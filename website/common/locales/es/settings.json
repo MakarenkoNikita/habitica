@@ -94,7 +94,7 @@
     "kickedGroup": "Eliminado del grupo",
     "remindersToLogin": "Recordatorios para revisar Habitica",
     "unsubscribedSuccessfully": "¡Desuscrito con éxito!",
-    "unsubscribedTextUsers": "Te has dado de baja satisfactoriamente de todos los emails de Habitica. Puedes seleccionar los mensajes que quieras recibir en <%= linkOpen %>Opciones > &gt; Notificaciones<%= linkClose %> (requiere iniciar sesión).",
+    "unsubscribedTextUsers": "Te has dado de baja satisfactoriamente de todos los emails de Habitica. Puedes seleccionar los mensajes que quieras recibir en <%= linkOpen %>Opciones > > Notificaciones<%= linkClose %> (requiere iniciar sesión).",
     "unsubscribedTextOthers": "No volverá a recibir ningún mail de Habitica.",
     "unsubscribeAllEmails": "Desuscribir de Notificaciones de Correo Electrónico",
     "unsubscribeAllEmailsText": "Habitica no podrá notificarte vía email sobre cambios importantes en el sitio o en tu cuenta.",

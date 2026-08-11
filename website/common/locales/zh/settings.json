@@ -94,7 +94,7 @@
     "kickedGroup": "已被团队移出",
     "remindersToLogin": "Habitica签到提醒",
     "unsubscribedSuccessfully": "退订成功！",
-    "unsubscribedTextUsers": "您已成功退订所有Habitica电子邮件，您可以在<%= linkOpen %>【设置】→&gt;【通知】<%= linkClose %>里选择接受您想要收到的邮件类型（需要登录）。",
+    "unsubscribedTextUsers": "您已成功退订所有Habitica电子邮件，您可以在<%= linkOpen %>【设置】→>【通知】<%= linkClose %>里选择接受您想要收到的邮件类型（需要登录）。",
     "unsubscribedTextOthers": "您将不会收到任何来自Habitica的其他邮件。",
     "unsubscribeAllEmails": "退订电子邮件",
     "unsubscribeAllEmailsText": "Habitica将不会通过电子邮件通知您有关网站或您的帐户的重要变更。",

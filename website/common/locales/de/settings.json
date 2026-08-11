@@ -94,7 +94,7 @@
     "kickedGroup": "Aus der Gruppe entfernt",
     "remindersToLogin": "Erinnerungen, bei Habitica reinzuschauen",
     "unsubscribedSuccessfully": "Erfolgreich abgemeldet!",
-    "unsubscribedTextUsers": "Du hast Dich erfolgreich von allen Habitica Emails abgemeldet. Du kannst die Emails, die Du erhalten möchtest, unter <%= linkOpen %>Einstellungen>&gt; Mitteilungen<%= linkClose %> freischalten (erfordert Anmeldung).",
+    "unsubscribedTextUsers": "Du hast Dich erfolgreich von allen Habitica Emails abgemeldet. Du kannst die Emails, die Du erhalten möchtest, unter <%= linkOpen %>Einstellungen>> Mitteilungen<%= linkClose %> freischalten (erfordert Anmeldung).",
     "unsubscribedTextOthers": "Du wirst keine weitere E-Mails von Habitica erhalten.",
     "unsubscribeAllEmails": "Keine weiteren E-Mails erhalten",
     "unsubscribeAllEmailsText": "Habitica wird dir keine E-Mails mehr zu wichtigen Änderungen der Seite oder deinem Account schicken können.",

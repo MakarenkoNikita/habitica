@@ -61,7 +61,7 @@
     "costumeDisabled": "您已停用服裝。",
     "gearAchievement": "您已達成「終極裝備」成就：已升級到指定職業中的最高級裝備套組！您已完成下列套組：",
     "gearAchievementNotification": "您已達成「終極裝備」成就：已升級到指定職業中的最高級裝備套組！",
-    "moreGearAchievements": "想獲得更多終極裝備徽章？可到「<%= linkOpen %>設定 &gt; 網站<%= linkClose %>」頁面變更職業並購買新的職業裝備！",
+    "moreGearAchievements": "想獲得更多終極裝備徽章？可到「<%= linkOpen %>設定 > 網站<%= linkClose %>」頁面變更職業並購買新的職業裝備！",
     "armoireUnlocked": "想獲得更多的裝備？快來看看<strong>魔法衣櫥！</strong>點擊魔法衣櫥就可以獲得隨機的特殊裝備！而且還可能得到隨機的經驗值或是食物。",
     "ultimGearName": "終極裝備—<%= ultClass %>",
     "ultimGearText": "已經將<%= ultClass %>職業的武器與盔甲組合升級到滿等了。",
@@ -197,5 +197,8 @@
     "perTaskText": "提高任務完成時物品的掉落概率、每日掉落的上限、連續完成的獎勵以及獲得的金幣。",
     "autoAllocate": "自動分配",
     "pointsAvailable": "可用點數",
-    "intTaskText": "提高從任務當中獲得的經驗值。同時提升你的法力值上限和法力值回復速度。"
+    "intTaskText": "提高從任務當中獲得的經驗值。同時提升你的法力值上限和法力值回復速度。",
+    "allocationMethod": "",
+    "statAllocationInfo": "",
+    "assignedStat": ""
 }

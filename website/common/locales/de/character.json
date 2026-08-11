@@ -61,7 +61,7 @@
     "costumeDisabled": "Du hast Dein Kostüm deaktiviert.",
     "gearAchievement": "Du hast den Erfolg \"Ultimative Ausrüstung\" erhalten, da Du die beste Ausrüstung erworben hast! Du hast die folgenden Sets vollständig:",
     "gearAchievementNotification": "Du hast den \"Ultimative Ausrüstung\" Erfolg erlangt, indem du die beste Ausrüstung erworben hast!",
-    "moreGearAchievements": "Um noch mehr \"Ultimative Ausrüstung\" Abzeichen zu erhalten, wechsle die Klasse auf der <%= linkOpen %>Einstellungen &gt; Seite Seite<%= linkClose %> und kaufe die Ausrüstung Deiner neuen Klasse!",
+    "moreGearAchievements": "Um noch mehr \"Ultimative Ausrüstung\" Abzeichen zu erhalten, wechsle die Klasse auf der <%= linkOpen %>Einstellungen > Seite Seite<%= linkClose %> und kaufe die Ausrüstung Deiner neuen Klasse!",
     "armoireUnlocked": "Sieh' Dir den <strong>Verzauberten Schrank</strong> für weitere Ausrüstung an! Klicke auf die Belohnung: \"Verzauberter Schrank\" um eine zufällige Ausrüstung zu erhalten! Du kannst auch zufällige Erfahrungspunkte oder Nahrung bekommen.",
     "ultimGearName": "Ultimative Ausrüstung - <%= ultClass %>",
     "ultimGearText": "Hat auf die besten Waffen und Rüstungen der Klasse <%= ultClass %> aufgerüstet.",

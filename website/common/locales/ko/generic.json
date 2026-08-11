@@ -240,5 +240,9 @@
     "refreshList": "목록 새로고침",
     "general": "기본",
     "reportPlayer": "플레이어 신고",
-    "blockPlayer": "플레이어 차단"
+    "blockPlayer": "플레이어 차단",
+    "gem": "",
+    "confirmPurchase": "",
+    "avoidSPI": "",
+    "avoidSPIDetails": ""
 }

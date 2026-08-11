@@ -242,5 +242,7 @@
     "whyReportingPlayer": "Mengapa kamu melaporkan pemain ini?",
     "confirmPurchase": "Konfirmasi Pembelian",
     "submitQuestion": "Kirim pertanyaan",
-    "targetUserNotExist": "Pengguna target: ‘<%= userName %>’ tidak ditemukan."
+    "targetUserNotExist": "Pengguna target: ‘<%= userName %>’ tidak ditemukan.",
+    "avoidSPI": "",
+    "avoidSPIDetails": ""
 }

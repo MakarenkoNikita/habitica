@@ -94,7 +94,7 @@
     "kickedGroup": "Usunięto z grupy",
     "remindersToLogin": "Przypominaj by meldować się do Habitica",
     "unsubscribedSuccessfully": "Poprawnie zrezygnowano z subskrypcji!",
-    "unsubscribedTextUsers": "Poprawnie zrezygnowałeś z subskrypcji wszystkich e-maili od Habitiki. W opcji <%= linkOpen %>Ustawienia > &gt; Powiadomienia<%= linkClose %> możesz włączyć przesyłanie wybranych powiadomień, które chcesz otrzymywać (wymaga zalogowania).",
+    "unsubscribedTextUsers": "Poprawnie zrezygnowałeś z subskrypcji wszystkich e-maili od Habitiki. W opcji <%= linkOpen %>Ustawienia > > Powiadomienia<%= linkClose %> możesz włączyć przesyłanie wybranych powiadomień, które chcesz otrzymywać (wymaga zalogowania).",
     "unsubscribedTextOthers": "Nie otrzymasz więcej żadnych e-maili od Habitica.",
     "unsubscribeAllEmails": "Zrezygnuj z subskrypcji e-maili",
     "unsubscribeAllEmailsText": "Habitica nie będzie w stanie powiadamiać Cię przez e-mail o ważnych zmianach na stronie lub na Twoim koncie.",
@@ -269,5 +269,7 @@
     "usedForSupport": "Te są używane, aby poprawić user experience, wydajność oraz serwisy na naszej stronie i w aplikacjach. Te dane są używane przez nas zespół wsparcia podczas obsługiwania zapytań i zgłoszeń błędów.",
     "privacySettingsOverview": "Habitica używa plików cookies w celach analizy wydajności, rozpatrywania zgłoszeń wsparcia i aby zapewnić Ci jak najlepsze wrażenia z gry. W tym celu potrzebujemy następujących pozwoleń. Możesz je zmienić w dowolnym momencie z poziomu ustawień konta.",
     "transaction_create_bank_challenge": "<b>Stworzono</b> bankowe wyzwanie",
-    "resetDetail4": "Stracisz całe swoje wyposażenie poza tajemniczymi przedmiotami abonenta i darmowymi przedmiotami upamiętniającymi. Będziesz móc odkupić usunięte przedmioty, jak również całe wyposażenie z edycji limitowanych (musisz mieć poprawną klasę aby odkupić wyposażenie dla danej klasy)."
+    "resetDetail4": "Stracisz całe swoje wyposażenie poza tajemniczymi przedmiotami abonenta i darmowymi przedmiotami upamiętniającymi. Będziesz móc odkupić usunięte przedmioty, jak również całe wyposażenie z edycji limitowanych (musisz mieć poprawną klasę aby odkupić wyposażenie dla danej klasy).",
+    "gpcWarning": "",
+    "gpcPlusAnalytics": ""
 }

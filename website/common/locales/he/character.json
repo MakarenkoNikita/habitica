@@ -188,5 +188,17 @@
     "titleFacialHair": "שיער פנים",
     "titleHaircolor": "צבעי שיער",
     "titleHairbase": "סגנונות שיער",
-    "customizations": "התאמה אישית"
+    "customizations": "התאמה אישית",
+    "perTaskText": "",
+    "autoAllocate": "",
+    "strTaskText": "",
+    "conTaskText": "",
+    "intTaskText": "",
+    "pointsAvailable": "",
+    "allocationMethod": "",
+    "statAllocationInfo": "",
+    "assignedStat": "",
+    "chatCastSpellPartyTimes": "",
+    "chatCastSpellUserTimes": "",
+    "nextReward": ""
 }

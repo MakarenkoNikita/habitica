@@ -188,5 +188,17 @@
     "titleFacialHair": "Ansigts hår",
     "titleHaircolor": "Hårfarve",
     "titleHairbase": "Hår stil",
-    "strTaskText": "Øg chancen for fuldtræffer slag og skade ved at færdiggøre opgaver. Dette øger også skade mod missions monstrene."
+    "strTaskText": "Øg chancen for fuldtræffer slag og skade ved at færdiggøre opgaver. Dette øger også skade mod missions monstrene.",
+    "customizations": "",
+    "perTaskText": "",
+    "autoAllocate": "",
+    "pointsAvailable": "",
+    "allocationMethod": "",
+    "statAllocationInfo": "",
+    "assignedStat": "",
+    "conTaskText": "",
+    "intTaskText": "",
+    "chatCastSpellPartyTimes": "",
+    "chatCastSpellUserTimes": "",
+    "nextReward": ""
 }

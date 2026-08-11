@@ -94,7 +94,7 @@
     "kickedGroup": "Removido do Grupo",
     "remindersToLogin": "Lembretes para entrar no Habitica",
     "unsubscribedSuccessfully": "Assinatura cancelada!",
-    "unsubscribedTextUsers": "Você cancelou o recebimento de todos os emails do Habitica. Você poderá habilitar apenas os emails que quer receber indo em <%= linkOpen %>Configurações > &gt; Notificações<%= linkClose %> (requer login).",
+    "unsubscribedTextUsers": "Você cancelou o recebimento de todos os emails do Habitica. Você poderá habilitar apenas os emails que quer receber indo em <%= linkOpen %>Configurações > > Notificações<%= linkClose %> (requer login).",
     "unsubscribedTextOthers": "Você não recebera mais nenhum outro e-mail do Habitica.",
     "unsubscribeAllEmails": "Cancelar a assinatura de e-mails",
     "unsubscribeAllEmailsText": "O Habitica não poderá notificá-lo por e-mail sobre mudanças importantes no site ou em sua conta.",

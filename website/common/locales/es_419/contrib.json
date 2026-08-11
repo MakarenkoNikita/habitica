@@ -40,7 +40,6 @@
     "backerTier": "Nivel de Patrocinador",
     "playerTiers": "Niveles de Jugador",
     "tier": "Nivel",
-    "conRewardsURL": "https://github.com/HabitRPG/habitica/wiki/Contributing-to-Habitica#contributor-tier-rewards",
     "surveysSingle": "Ayudó a Habitica a crecer, ya sea completando una encuesta o ayudando con pruebas a gran escala. ¡Gracias!",
     "surveysMultiple": "Ayudó a Habitica a crecer en <%= count %> ocasiones, ya sea completando una encuesta o ayudando con pruebas a gran escala. ¡Gracias!",
     "blurbHallPatrons": "Este es el Salón de Patrocinadores, donde honramos a los nobles aventureros que respaldaron el Kickstarter original de Habitica. ¡Les agradecemos por ayudarnos a dar vida a Habitica!",

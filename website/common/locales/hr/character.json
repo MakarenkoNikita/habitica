@@ -61,7 +61,7 @@
     "costumeDisabled": "Uklonili ste svoj kostim.",
     "gearAchievement": "Zaradili ste postignuće \"Ultimativna Oprema\" za nadograđivanje svoje opreme do najjačeg kompleta za svoju klasu! Postigli ste sljedeće potpune komplete:",
     "gearAchievementNotification": "Zaradili ste postignuće \"Ultimativna Oprema\" za nadograđivanje svoje opreme do najjačeg seta opreme za svoju klasu!",
-    "moreGearAchievements": "Kako bi dobili više znački za Ultimativnu Opremu, promijenite klasu pod <%= linkOpen %>Postavke &gt; Stranica<%= linkClose %> i počnite kupovati opremu svoje nove klase!",
+    "moreGearAchievements": "Kako bi dobili više znački za Ultimativnu Opremu, promijenite klasu pod <%= linkOpen %>Postavke > Stranica<%= linkClose %> i počnite kupovati opremu svoje nove klase!",
     "armoireUnlocked": "Za više opreme bacite pogled u <strong>Začarani Ormar!</strong> Kliknite na Začarani Ormar u stupcu Nagrada za nasumičnu priliku da dobijete dio posebne Opreme! Ovo vam također može donijeti nasumični XP ili predmete hrane.",
     "ultimGearName": "Ultimativna Oprema - <%= ultClass %>",
     "ultimGearText": "Su maksimalno nadogradili komplet oružja i oklopa za klasu <%= ultClass %>.",
@@ -191,5 +191,14 @@
     "titleFacialHair": "Dlake na Licu",
     "titleHaircolor": "Boja Kose",
     "titleHairbase": "Frizure",
-    "customizations": "Prilagodbe"
+    "customizations": "Prilagodbe",
+    "perTaskText": "",
+    "autoAllocate": "",
+    "pointsAvailable": "",
+    "allocationMethod": "",
+    "statAllocationInfo": "",
+    "assignedStat": "",
+    "strTaskText": "",
+    "conTaskText": "",
+    "intTaskText": ""
 }

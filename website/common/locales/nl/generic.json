@@ -242,5 +242,7 @@
     "allNotifications": "Alle notificaties",
     "confirmPurchase": "bevestig aankoop",
     "shadowMute": "Onzichtbare stomme",
-    "unbanPlayer": "Verbanning speler opheffen"
+    "unbanPlayer": "Verbanning speler opheffen",
+    "avoidSPI": "",
+    "avoidSPIDetails": ""
 }

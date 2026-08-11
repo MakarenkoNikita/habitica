@@ -61,7 +61,7 @@
     "costumeDisabled": "의상을 해제했습니다.",
     "gearAchievement": "직업에 맞는 최고의 장비 세트로 업그레이드함으로써 \"궁극의 장비\" 업적을 달성하셨습니다! 완벽히 갖춘 세트:",
     "gearAchievementNotification": "직업에 맞는 최고의 장비 세트로 업그레이드함으로써 \"궁극의 장비\" 업적을 달성하셨습니다!",
-    "moreGearAchievements": "궁극의 장비 배지를 더 얻고 싶다면 <%= linkOpen %>설정에서 &gt; (이곳)<%= linkClose %> 직업을 바꾸고 새 직업의 장비를 구입하세요!",
+    "moreGearAchievements": "궁극의 장비 배지를 더 얻고 싶다면 <%= linkOpen %>설정에서 > (이곳)<%= linkClose %> 직업을 바꾸고 새 직업의 장비를 구입하세요!",
     "armoireUnlocked": "더 많은 장비는 <strong>마법의 장비상자</strong>에서 확인해 보세요. 마법의 장비상자 보상을 클릭하면 특수 장비를 얻을 수 있는 랜덤한 기회가 주어집니다. 또 랜덤하게 경험치나 음식 아이템을 줄 수도 있어요.",
     "ultimGearName": "궁극의 장비 - <%= ultClass %>",
     "ultimGearText": "<%= ultClass %> 클래스를 위한 최대 무기와 갑옷 세트로 업그레이드했습니다.",
@@ -191,5 +191,14 @@
     "titleHaircolor": "머리색",
     "titleHairbase": "머리 모양",
     "customizations": "커스터마이즈",
-    "nextReward": "다음 로그인 보상"
+    "nextReward": "다음 로그인 보상",
+    "perTaskText": "",
+    "autoAllocate": "",
+    "pointsAvailable": "",
+    "allocationMethod": "",
+    "statAllocationInfo": "",
+    "assignedStat": "",
+    "strTaskText": "",
+    "conTaskText": "",
+    "intTaskText": ""
 }

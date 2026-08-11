@@ -242,5 +242,7 @@
     "targetUserNotExist": "A megadott felhasználó ('<%= userName %>') nem létezik.",
     "rememberToBeKind": "Ne feledd, hogy légy kedves, tisztelettudó, és tartsd be a <%= linkOpen %>Közösségi irányelveket<%= linkClose %>.",
     "gem": "Gyémánt",
-    "confirmPurchase": "Vásárlás megerősítése"
+    "confirmPurchase": "Vásárlás megerősítése",
+    "avoidSPI": "",
+    "avoidSPIDetails": ""
 }
