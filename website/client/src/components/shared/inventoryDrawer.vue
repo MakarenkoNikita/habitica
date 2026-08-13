@@ -2,6 +2,7 @@
   <drawer
     ref="drawer"
     class="inventoryDrawer"
+    data-test-id="inventoryDrawer"
     :no-title-bottom-padding="true"
     :error-message="inventoryDrawerErrorMessage(selectedDrawerItemType)"
   >

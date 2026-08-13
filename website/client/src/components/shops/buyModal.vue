@@ -3,6 +3,7 @@
     id="buy-modal"
     :hide-header="true"
     @change="onChange($event)"
+    data-test-id="buyModal"
   >
     <span
       v-if="withPin"
@@ -167,6 +168,7 @@
         <button
           v-else-if="!(item.key === 'gem' && gemsLeft < 1)"
           class="btn btn-primary"
+          data-test-id="buyButton"
           :disabled="item.key === 'gem' && gemsLeft === 0 ||
             attemptingToPurchaseMoreGemsThanAreLeft || numberInvalid || item.locked ||
             !preventHealthPotion ||

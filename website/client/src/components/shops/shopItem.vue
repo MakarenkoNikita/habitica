@@ -10,7 +10,9 @@
     >
       <div
         class="item"
+        :data-test-id="getItemTestId()"
         :class="getItemClasses()"
+        :value="getItemValue()"
       >
         <slot
           name="itemBadge"
@@ -378,6 +380,12 @@ export default {
       }
       return this.price;
     },
+    getItemTestId () {
+      return ['item', !this.item.locked].join('-');
+    },
+    getItemValue () {
+          return [this.item.key, this.item.value].join('|');
+        },
     getItemClasses () {
       return {
         'item-empty': this.emptyItem,

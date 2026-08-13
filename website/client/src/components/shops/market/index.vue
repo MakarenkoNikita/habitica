@@ -1,5 +1,5 @@
 <template>
-  <page-layout class="market">
+  <page-layout class="market" data-test-id="marketPage">
     <div slot="sidebar">
       <div class="form-group">
         <input

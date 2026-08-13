@@ -1,5 +1,5 @@
 <template>
-  <layout-section :title="$t('equipment')">
+  <layout-section :title="$t('equipment')" data-test-id="equipmentList">
     <div slot="filters">
       <filter-dropdown
         :label="$t('class')"

@@ -1,6 +1,7 @@
 <template>
   <button
     class="btn btn-flat btn-show-more mt-2 mb-3"
+    data-test-id="showMoreLess"
     @click="$emit('click')"
   >
     <span class="button-text">

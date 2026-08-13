@@ -13,6 +13,7 @@
         </slot>
       </div>
       <div
+        data-test-id="closeOpenDrawer"
         class="drawer-toggle-icon svg-icon icon-10"
         :class="{ closed: !isOpen }"
         v-html="isOpen ? icons.minimize : icons.expand"
