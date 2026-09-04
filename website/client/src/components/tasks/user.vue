@@ -218,6 +218,7 @@
               v-for="type in columns"
               :key="type"
               class="dropdown-item d-flex px-2 py-1"
+              :data-test-id="`create-${type}-task-button`"
               @click="createTask(type)"
             >
               <div class="d-flex align-items-center justify-content-center task-icon">

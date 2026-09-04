@@ -1,6 +1,7 @@
 <template>
   <b-modal
     id="task-modal"
+    :data-test-id="`${task.type}-modal`"
     :no-close-on-esc="true"
     :no-close-on-backdrop="true"
     size="sm"
@@ -29,6 +30,7 @@
             class="cancel-task-btn mr-3"
             :class="cssClass('headings')"
             type="button"
+            data-test-id="cancelButton"
             @click="cancel()"
           >
             {{ $t('cancel') }}
@@ -85,6 +87,7 @@
           v-model="task.text"
           class="form-control input-title"
           :class="cssClass('input')"
+          data-test-id="titleInput"
           type="text"
           required="required"
           spellcheck="true"
@@ -133,6 +136,7 @@
           v-model="task.notes"
           class="form-control input-notes"
           :class="cssClass('input')"
+          data-test-id="notesInput"
           :placeholder="$t('addNotes')"
           @focus="setActiveField('notes')"
           @keydown="autoCompleteMixinUpdateCarretPosition"
@@ -203,8 +207,10 @@
         >
           <button
             type="button"
+            data-test-id="positiveButton"
             class="habit-option-container no-transition
             d-flex flex-column justify-content-center align-items-center"
+            :state="`${task.up}`"
             :class="!task.up ? cssClass('habit-control-disabled') : ''"
             :disabled="challengeAccessRequired"
             @click="toggleUpDirection()"
@@ -229,8 +235,10 @@
           </button>
           <button
             type="button"
+            data-test-id="negativeButton"
             class="habit-option-container no-transition
             d-flex flex-column justify-content-center align-items-center"
+            :state="`${task.down}`"
             :class="!task.down ? cssClass('habit-control-disabled') : ''"
             :disabled="challengeAccessRequired"
             @click="toggleDownDirection()"
@@ -268,6 +276,7 @@
             />
           </div>
           <select-difficulty
+            data-test-id="difficultyDropdown"
             :value="task.priority"
             :disabled="challengeAccessRequired"
             @select="setDifficulty($event)"
@@ -445,6 +454,7 @@
             >{{ $t('tags') }}</label>
             <div class="col-12">
               <select-multi
+                data-test-id="tagsDropdown"
                 ref="selectTag"
                 :selected-items="task.tags"
                 :all-items="user.tags"
@@ -506,6 +516,7 @@
               :text="$t('resetCounter')"
             />
             <select-translated-array
+              data-test-id="resetCounterDropdown"
               :disabled="challengeAccessRequired"
               :items="['daily', 'weekly', 'monthly']"
               :value="task.frequency"
@@ -713,6 +724,7 @@
             class="btn btn-primary btn-footer
           d-flex align-items-center justify-content-center"
             :class="{'btn-disabled': !canSave}"
+            data-test-id="createTaskButton"
             type="button"
             @click="submit()"
           >
