@@ -312,6 +312,7 @@
               :date.sync="task.startDate"
               :disabled="challengeAccessRequired"
               :highlighted="calendarHighlights"
+              data-test-id="startDate"
             />
           </div>
         </div>
@@ -328,6 +329,7 @@
               :disabled="challengeAccessRequired"
               :items="['daily', 'weekly', 'monthly', 'yearly']"
               :value="task.frequency"
+              data-test-id="repetitionDropdown"
               @select="task.frequency = $event"
             />
           </div>
@@ -344,6 +346,7 @@
             <div
               class="input-group-outer"
               :class="{disabled: challengeAccessRequired}"
+              data-test-id="repeatEvery"
             >
               <div class="input-group">
                 <input
@@ -376,6 +379,7 @@
             <div class="toggle-group">
               <toggle-checkbox
                 v-for="(day, dayNumber) in ['su','m','t','w','th','f','s']"
+                data-test-id="repeatOn"
                 :key="dayNumber"
                 :tab-index="dayNumber"
                 :checked.sync="task.repeat[day]"

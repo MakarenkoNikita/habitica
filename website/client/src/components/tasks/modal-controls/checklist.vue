@@ -30,6 +30,7 @@
           v-for="(item, $index) in checklist"
           :key="item.id"
           class="inline-edit-input-group checklist-group input-group"
+          data-test-id="checklistItem"
         >
           <span
             v-if="!disabled && !disableDrag"
@@ -80,6 +81,7 @@
         v-if="!disabled && !disableEdit"
         class="inline-edit-input-group checklist-group input-group new-checklist"
         :class="{'top-border': items.length === 0}"
+        data-test-id="addChecklistItem"
       >
         <span
           v-once
