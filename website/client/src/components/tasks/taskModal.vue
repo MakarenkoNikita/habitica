@@ -173,7 +173,7 @@
               v-once
               class="mb-1"
             >{{ $t('cost') }}</label>
-            <div class="input-group">
+            <div class="input-group" data-test-id="value">
               <div class="input-group-prepend input-group-icon align-items-center">
                 <div
                   class="svg-icon gold"
