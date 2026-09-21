@@ -296,6 +296,7 @@
               :disabled="challengeAccessRequired"
               :highlighted="calendarHighlights"
               :clear-button="true"
+              data-test-id="dueDate"
             />
           </div>
         </div>
